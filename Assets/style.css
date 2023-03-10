@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  line-height: 1;
 }
 
 textarea {
@@ -30,8 +31,9 @@ textarea {
 }
 
 .row {
-  border-top: 1px solid white;
   height: 90px;
+  border-top: 2px solid white;
+  white-space: pre-wrap;
 }
 
 .hour {
